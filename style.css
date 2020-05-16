@@ -1,0 +1,36 @@
+body{
+    height: auto;
+    width: auto;
+    margin: 0;
+    background: url(background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.big{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-top: 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: azure;
+}
+
+span{
+    margin-bottom: 10px;
+    animation: 0.6s blink step-end infinite;
+}
+
+@keyframes blink{
+    from,to{
+        color: transparent;
+    }
+    50%{
+        color: #fff;
+    }
+}
